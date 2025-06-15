@@ -1,8 +1,50 @@
 <html>
     <head>
+        <title>Unit Converter</title>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="main-wrapper">
+            <section id="hero">
+                <div class="hero-container">
+                    <h1>Metric/Imperial Unit Conversion 📏</h1>
+                    <div class="number-input">
+                        <input id="input-el" type="number">
+                    </div>
+                    <button id="convert-button">Convert</button>
+                </div>
+                
+            </section>
+
+            <section id="conversion-result">
+                <div class="conversion-result-container">
+                    <div class="result-wrapper">
+                        <h2>Length (Meter/Feet)</h2>
+                        <p id="convert-length">0 meters = 0 feet | C feet = 0 meters</p>
+                    </div>
+                    <div class="result-wrapper">
+                        <h2>Area (Sqaure Meter/Square Feet)</h2>
+                        <p id="convert-area">0 square meters = 0 square feet | 0 square feet = 0 square meters</p>
+                    </div>
+                    <div class="result-wrapper">
+                        <h2>Volume (Liters/Gallons)</h2>
+                        <p id="convert-volume">0 liters = 0 gallons | 0 gallons = 0 liters</p>
+                    </div>
+                    <div class="result-wrapper">
+                        <h2>Mass (Kilograms/Pounds)</h2>
+                        <p id="convert-mass">0 kilos = 0 pounds | 0 pounds = 0 kilos</p>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+        
+
+
         <script src="index.js"></script>
     </body>
 </html>
